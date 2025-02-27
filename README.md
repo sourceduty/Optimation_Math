@@ -11,6 +11,7 @@ Optimation refers to the process of optimizing or improving a mathematical model
 Half-adding refers to adding half of one number to another number in order to achieve a desired sum. For example, if you want to add 10 to 25 but don't have enough units of 10, you could instead use five units of 5 (which is equal to 25) and then add two more units of 5 (totaling another 10), resulting in a total sum of 35. Half-adding can be used as an alternative method for addition when the required number is not available or practical to obtain.
 
 A [%> B
+
 A [100%> B
 
 #
