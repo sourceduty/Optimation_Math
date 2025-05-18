@@ -1,7 +1,7 @@
 import numpy as np
 
 def display_menu():
-    print("\n====== Optimation Terminal v2.0 ======")
+    print("\n====== Optimation Terminal v1.0 ======")
     print("1. Set Variable A")
     print("2. Set Variable B")
     print("3. Set Weight for A (1-100)")
