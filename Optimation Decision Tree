@@ -1,0 +1,27 @@
+START: Define Variables and Initial Weights
+│
+├── Set Variable A (e.g., A = 10)
+│
+├── Set Variable B (e.g., B = 20)
+│
+├── Assign Initial Weight to A (1–100)
+│     │
+│     ├── Weight A = 50 (Equal Importance)
+│     │
+│     └── Decision: Increase A's Influence?
+│           │
+│           ├── YES → Increase Weight A → Adjust Outcome
+│           │     ├── New Weight A = 60
+│           │     └── Recalculate: Outcome = A[60%> + B[40%>
+│           │
+│           └── NO → Decrease Weight A → Adjust Outcome
+│                 ├── New Weight A = 40
+│                 └── Recalculate: Outcome = A[40%> + B[60%>
+│
+├── Evaluate Resulting Outcome
+│     ├── Satisfactory?
+│     │     └── YES → Finalize Model
+│     └── NO → Continue Iterative Adjustments
+│           └── Loop Back to "Assign Weight"
+│
+└── END: Outcome Optimized Based on Weighted Contributions
