@@ -56,3 +56,5 @@ The core strength of neural optimation lies in its ability to evolve through exp
 [Programming](https://github.com/sourceduty/Programming)
 <br>
 [PyPi Studio](https://chatgpt.com/g/g-682fb476dd048191800bdbc557bd7e9a-pypi-studio)
+<br>
+[Math Tools](https://github.com/sourceduty/Math_Tools)
