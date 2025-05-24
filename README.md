@@ -5,6 +5,8 @@ Optimation is a groundbreaking mathematical discovery that diverges from traditi
 
 #
 
+![Optimation Note](https://github.com/user-attachments/assets/dc73bb68-afb4-48ea-9400-041004665862)
+
 Optimation refers to the process of optimizing or improving a mathematical model by adjusting one or more variables within a given range, such as between 1 and 100. In this context, "weighting variable A" means assigning a value from 1-100 that represents the relative importance or influence of variable A in relation to another variable B. This weight is then applied against variable B to determine its final contribution towards the outcome of the model. Essentially, optimation involves finding the optimal balance between two or more variables by adjusting their weights within a given range and observing how it affects the overall result.
 
 Half-adding refers to adding half of one number to another number in order to achieve a desired sum. For example, if you want to add 10 to 25 but don't have enough units of 10, you could instead use five units of 5 (which is equal to 25) and then add two more units of 5 (totaling another 10), resulting in a total sum of 35. Half-adding can be used as an alternative method for addition when the required number is not available or practical to obtain.
