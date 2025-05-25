@@ -16,6 +16,7 @@ Half-adding refers to adding half of one number to another number in order to ac
 ```
 A [%> B
 A [100%> B
+F = A → [50%> → B
 ```
 
 <br>
