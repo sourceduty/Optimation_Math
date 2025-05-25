@@ -21,6 +21,10 @@ F = A → [50%> → B
 
 <br>
 
+Optimation can be likened to a modular arithmetic system where instead of seeking a precise remainder as in the modulo operation (A % B), the goal is to iteratively apply a percentage or weight of variable A against variable B to explore a range of outcomes. While modulo reveals a static remainder through division, optimation introduces a dynamic framework where weights between 1 and 100 define the portion of A that influences B. For instance, "A [75%> B" signifies that 75% of A is applied to modulate or counterbalance B, resulting in an adaptable outcome reflective of this weighting. Like modulo's cyclic behavior, optimation's iterative nature uncovers patterns and balances, but rather than terminating in a remainder, it encourages continuous recalibration of A's impact on B, making it ideal for complex systems where outcomes evolve and rigid formulas fall short.
+
+<br>
+
 ```
 Let F be an optimation function defined as:
 
