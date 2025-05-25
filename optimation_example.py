@@ -1,20 +1,28 @@
-from optimation import Model, Variable, Objective, minimize
+import unittest
+import optimation
 
-# Step 1: Define a model
-model = Model()
+class TestOptimationModel(unittest.TestCase):
+    def test_simple_minimization(self):
+        # Create variables
+        x = optimation.Variable("x", value=10)
+        y = optimation.Variable("y", value=20)
 
-# Step 2: Define variable(s)
-x = Variable(name="x")
+        # Define the objective function
+        def total(variables):
+            return sum(var.value for var in variables)
 
-# Step 3: Define the objective
-objective = Objective((x - 3)**2)
+        # Build model
+        model = optimation.Model()
+        model.add_variable(x)
+        model.add_variable(y)
+        model.add_objective(optimation.Objective(total, sense="minimize"))
 
-# Step 4: Add the objective to the model
-model.objective = minimize(objective)
+        # Execute solver
+        result = optimation.minimize(model)
 
-# Step 5: Solve the model
-solution = model.solve()
+        # Assertions
+        self.assertIn("minimize", result)
+        self.assertEqual(result["minimize"], 30)
 
-# Step 6: Display the result
-print(f"Optimal value of x: {solution.variable_values['x']}")
-print(f"Minimum value of the function: {solution.objective_value}")
+if __name__ == '__main__':
+    unittest.main()
